@@ -4,6 +4,8 @@ Coursera Course: HTML, CSS, and Javascript for Web Developers
 
 Instructor:  Dr.  Yaakov Chaikin
 
+https://scottwest365.github.io/Coursera-Johns-Hopkins-University/
+
 Woo-hoo! You get to do some coding! Exciting!
 
 Time to complete: 1-2 hours. It may take you less time than that if you've absorbed the material in this module well.
