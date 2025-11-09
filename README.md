@@ -1,67 +1,55 @@
-Module 2 Coding Assignment
+Course 4 Module 1 Coding Assignment
 
-Coursera Course: HTML, CSS, and Javascript for Web Developers
+Coursera course: HTML, CSS, and Javascript for Web Developers
 
-Instructor:  Dr.  Yaakov Chaikin
+Let's write a little bit of Javascript programming code to practice what we've learned! Woohoo! :-)
 
-https://scottwest365.github.io/Coursera-Johns-Hopkins-University/
+Time to complete: About 30 minutes.
 
-Woo-hoo! You get to do some coding! Exciting!
+Ask questions in Discussions if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone's help) can be a very valuable learning experience!
 
-Time to complete: 1-2 hours. It may take you less time than that if you've absorbed the material in this module well.
-Ask questions in Discussions if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone's help) can be a very valuable learning experience! Don't get scared by the number of points below. It's really not so much. I just wanted to explain everything as clearly as I could and break it down into smaller steps.Here is what you will need to complete the assignment:
+Summary: In this assignment, you are going to loop over an array of names and print out either a hello or goodbye to that name to the browser console. If the name starts with a letter j or J, you are to print out Goodbye JSomeName. If the name starts with any other letter, you are to print out Hello SomeName.
 
-    1. (If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
-    
-    2. (If you haven't already) Follow the Development Setup Video (beginning of Module 1) instructions on how to create a repository and set it up such that you can host and   
-       view your finished web pages on GitHub Pages, i.e., GitHub.io domain name. You will need to provide that URL for your peer review.
-       
-    3. Create a folder in your repository that will serve as a container folder for your solution to this assignment. You can call it whatever you want. For example, module2-
-       solution or mod2_solution, etc. Create an index.html file inside the solution container folder, e.g., module2-solution/index.html.
-       
-    4. The implementation of the page you will be creating should follow the mockup illustrations shown below. You are provided 3 mockups: desktop, tablet, and mobile. Your 
-       implementation has to be JUST 1 page, NOT 3 pages. In other words, you will be creating a single, responsive page.
-       
-    5. Your page must include a CSS file. No inline styles allowed. Your CSS file should be placed into a css folder under the solution container folder, e.g., module2-solution/
-       css.
-       
-    6. You are NOT allowed to use any CSS (or Javascript) framework for this assignment, including Twitter Bootstrap CSS Framework. No framework CSS files should even be 
-      referenced in your index.html, even if you are not using them. However, you MAY use the simple responsive framework we developed in Lecture 24 as a starting point for this  
-      assignment.
-      
-    7. You must implement the following breakpoints that will be considered desktop, tablet, and mobile. The browser should display a desktop version of the site when the width 
-       of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should 
-       appear only if the width of the browser is equal to or less than 767px.
-       
-    8. Your site is very simple. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text. You can make it dummy 
-       text/"lorem ipsum", it doesn't matter. How the sections are laid out on the screen depends on the width of the browser window. (Hint: use media queries discussed in 
-       Lecture 23.)
-       
-    9. Layout: In the desktop view (992px and above), each of the 3 sections should take up equal amount of space on the screen. As you make the browser window wider or narrower, 
-       each section should become wider or narrower. (Hint: use percentages to define width and use the 'float' property. See Lecture 24). For a visual reference of this view,   
-       see the desktop mockup illustration below.
-       
-    10. Layout: In the tablet view (between 768px and 991px, inclusively), the first 2 sections should be in the first row and be of equal size. The 3rd section should be in the 
-        second row and take up the entire row by itself. For a visual reference of this view, see the tablet mockup illustration below.
-        
-    11. Layout: In the mobile view (equal to or less than 767px), each section should take up the entire row. For a visual reference of this view, see the mobile mockup 
-        illustration below.
-        
-    12. Section title region: Each section should have a section title region that is always positioned at the top right corner of the section no matter the view (desktop, tablet 
-        or mobile). Copy the titles from the mockup illustration (i.e., Chicken, Beef, Sushi) or come up with your own. (Hint: use relative and absolute positioning and offsets 
-        as discussed in Lecture 22.)
-        
-    13. Spacing: Pay attention to the spacing shown in the mockup illustrations. Note the spacing between sections (both horizontal and vertical). Note the horizontal spacing 
-        between the edges of the section and the edges of the browser window. Also, note the spacing between the dummy text in each section and the edges of the section. Lastly, 
-        make sure the dummy text is "pushed down" enough so it doesn't overlap the section title region. (Hint: use margins and padding and use border-box as your box-sizing as 
-        discussed in Lecture 19.)
-        
-    14. Borders and Colors: Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique 
-        color (of your choosing). Make sure that the background color still allows the user to view the text in the section and section title regions. Depending on the color you 
-        choose, you may want to change the color of the text so it can be easy to read. Set a black border on both the section and section title region that is 1px thick. 
-        Warning: While not specifying borders and colors according to the requirements does not hurt your grade so much, not doing so will make it much harder for your classmates 
-        to peer grade the rest of your assignment, possibly resulting in a much lower grade.
-        
-    15. (OPTIONAL) You will NOT be graded on this, but you may want to explicitly set a font-family for the text in your page, so you are not stuck with the default browser font 
-        family. Also, set the font size of the heading and section title to be 75% larger and 25% larger (respectively) than the font size of the dummy text.
+However, in order to do that printing you will have to use 2 externally provided libraries whose code is not 100% ready to be used. Using the things we've learned in this module, your job will be to fix the code in those libraries.
 
+You will get some starter code to work with where all the steps of what you need to do are clearly spelled out for you.
+
+Here is what you will need to do in order to complete the assignment:
+
+    (If you haven't already) Create a GitHub.com account and a repository that you will use for this class.
+
+    (If you haven't already) Follow the Development Setup Video (beginning of Module 1) instructions on how to create a repository and set it up such that you can host and view   
+    finished web pages on GitHub Pages, i.e., GitHub.io domain name. You will need to provide that URL for your peer review.
+
+    Create a folder in your repository that will serve as a container folder for your solution to this assignment. You can call it whatever you want. For example, module4-
+    solution or mod4_solution, etc.
+
+    You will need to download the starter files for this project and copy them into your solution container folder (e.g., into module4-solution). Since assignments and starter 
+    code get updated from time to time, don't assume that you have the latest version already on your system. The best way to ensure that you are working with the very latest 
+    starter code is either git clone the fullstack-course4 repository into a new directory OR, if you've already done 'git clone' previously, you can simply open up your command 
+    prompt (cmd on Windows or Terminal on Mac), navigate to the folder where the fullstack-course4 repository was previously cloned into and do: git pull.
+
+    This will update your local copy of the repository with whatever changes have been made since the last update.
+
+    As a reminder, the full repository URL is: https://github.com/jhu-ep-coursera/fullstack-course4
+
+    Once the local repository on your system is up to date, YOU HAVE A CHOICE! If you want a slightly more challenging assignment, use the code in the "harder" folder as your 
+    starting point. If you want a slightly less challenging assignment, use the code in the "easier" folder as your starting point. The difference between the two starting points 
+    is that in the "easier" starting point, there are a few steps that are already completed for you.
+
+    Harder: If you want a slightly more challenging assignment, copy all the contents of the fullstack-course4/assignments/assignment4/assignment4-solution-starter/harder folder 
+    into your newly created solutions container folder for this assignment, e.g., 'module4-solution'.
+
+    Easier: If you want a slightly less challenging assignment, copy all the contents of the fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier folder 
+    into your newly created solutions container folder for this assignment, e.g., 'module4-solution'.
+
+    NOTE: the provided starter code will not run. It is up to you to follow the instructions to get it to run. Once you've copied the starter code of your choice into your 
+    solution folder, open up your solution folder in the code editor. Open up script.js file and follow the steps.
+
+    When you are continuously working on the assignment, use Browser Sync and keep Chrome open to the Console tab of the Chrome Developer Tools. You will likely see errors there 
+    to start with. Follow the steps outlined in the starter code and those errors should go away by the time you finish the last step. If you still see errors at that point or 
+    you are not seeing the output you're supposed to see, you probably made a mistake somewhere, so look into that and investigate.
+
+    Remember, if you are stuck, ask questions on the course Discussion forum.
+
+    That's it!
