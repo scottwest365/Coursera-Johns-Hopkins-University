@@ -1,5 +1,7 @@
 Course 4 Module 1 Coding Assignment
 
+https://scottwest365.github.io/Coursera-Johns-Hopkins-University/
+
 Coursera course: HTML, CSS, and Javascript for Web Developers
 
 Let's write a little bit of Javascript programming code to practice what we've learned! Woohoo! :-)
